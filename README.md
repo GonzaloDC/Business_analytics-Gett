@@ -16,15 +16,13 @@ La empresa GETT quiere mejorar el servicio de transporte para evitar al máximo 
 
 ## Estructura
 
-El análisis se ha desarrollado en el notebook [Data Analysis.ipynb](Notebooks/Data%20analysis.ipynb) y para ayudar a la empresa a buscar soluciones, se han respondido a las siguientes preguntas:
+El análisis se ha desarrollado en el notebook [Data Analysis](Notebooks/Data%20analysis.ipynb) y para ayudar a la empresa a buscar soluciones, se han respondido a las siguientes preguntas:
 
 1) ¿Las cancelaciones se producen antes o después de asignar un conductor?
 2) Trazar la distribución de pedidos fallidos por horas. ¿Existe una tendencia a que determinadas horas tengan una proporción anormalmente alta de una u otra categoría? ¿A qué horas se producen la mayoría de cancelaciones?
 3) Trace el tiempo medio hasta la cancelación con y sin conductor, por horas. Si hay valores atípicos en los datos, sería mejor eliminarlos. ¿Podemos sacar alguna conclusión de este gráfico?
 4) Traza la distribución del tiempo medio de llegada por horas. ¿Cómo se explica este gráfico?
 5) Se ha graficado un mapa con los lugares donde más cancelaciones se producen.
-
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
 
 #### ¿Las cancelaciones se producen antes o después de asignar un conductor?.
 Dentro de la primera parte, los notebooks, se tienen dos archivos .ipynb:
