@@ -73,4 +73,4 @@ Para mejorar el sistema de transporte, se propone lo siguiente:
 
 - Aumentar el número de conductores en la zona centro de la ciudad en contra de la periferia.
 - Incentivar el servicio en horario de jornada laboral, es decir, entre las 7 y las 9 horas, y a partir de las 17 horas.
-- Diferenciar el número de conductores entre semana (mayor número durante horario matinal) y el fin de semana (más numero de conductores en horario comprendido entre las 22 y las 3 de la madrugada)
+- Diferenciar el número de conductores entre semana (mayor número durante horario matinal) y el fin de semana (mayor número de conductores en horario comprendido entre las 22 y las 3 de la madrugada)
