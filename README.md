@@ -28,7 +28,7 @@ El análisis se ha desarrollado en el notebook [Data Analysis](Notebooks/Data%20
 
 Para saber la distribución de cancelaciones (que pueden ser por el cliente o por el sistema de GETT) se ha graficado el número de éstas diferenciando entre conductor asignado o no:
 
-[Cancelaciones por conductor asignado](artifacts/img/cancelacion%20conductor%20asignado.png)
+![Cancelaciones por conductor asignado](artifacts/img/cancelacion%20conductor%20asignado.png)
 
 Como se puede comprobar, una vez que un conductor es asignado, el sistema prácticamente no cancela ninguna reserva. La mayoría de las cancelaciones se producen cuando no se asigna conductor.
 
@@ -36,7 +36,7 @@ Como se puede comprobar, una vez que un conductor es asignado, el sistema práct
 
 Veamos, por horas, la distribución de cancelaciones:
 
-[distribución de cancelaciones por hora](artifacts/img/maxima%20cancelacion%20hora.png)
+![distribución de cancelaciones por hora](artifacts/img/maxima%20cancelacion%20hora.png)
 
 Según el gráfico, la hora con mayor número de cancelaciones se da a a las 8 de la mañana, seguido de las 21, 22 y 23 horas. Las horas de madrugada entre las 3 y las 12, también tienen un número alto de cancelaciones. 
 
@@ -44,17 +44,17 @@ Según el gráfico, la hora con mayor número de cancelaciones se da a a las 8 d
 
 Veamos la distribución del tiempo (en segundos) de cancelación de la reserva: 
 
-[tiempo de cancelacion](artifacts/img/tiempo%20de%20cancelacion.png)
+![tiempo de cancelacion](artifacts/img/tiempo%20de%20cancelacion.png)
 
 el 75% de las cancelaciones se producen por debajo de los 154 segundos, mientras que el valor más frecuente son 85 segundos desde que se reserva. Para ver el tiempo de cancelacion por horas:
 
-[tiempo de cancelacion por horas](artifacts/img/cancelacion%20en%20tiempo%20por%20hora.png)
+![tiempo de cancelacion por horas](artifacts/img/cancelacion%20en%20tiempo%20por%20hora.png)
 
 Por regla general, el tiempo trascurrido para cancelar es mayor si hay conductor asignado.
 
 #### 4) Tiempo medio de llegada por horas. ¿Cómo se explica este gráfico?
 
-[tiempo medio de llegada](artifacts/img/tiempo%20transcurrido%20entre%20recogida.png)
+![tiempo medio de llegada](artifacts/img/tiempo%20transcurrido%20entre%20recogida.png)
 
 El tiempo entre recogidas aumenta considerablemente a las 7, 8 y 17 horas. Esto indica que durante los horarios de entrada y salida del trabajo se produce un tráfico más denso, con el consiguiente retraso a la hora de recoger al cliente.
 
@@ -63,7 +63,7 @@ El tiempo entre recogidas aumenta considerablemente a las 7, 8 y 17 horas. Esto 
 
 El siguiente mapa se ha creado usando las librerias Folium y h3. Los hexágonos muestran dónde se producen el 80% de las cancelaciones en la ciudad de Reading:
 
-[mapa](artifacts/img/mapa.JPG)
+![mapa](artifacts/img/mapa.JPG)
 
 Se puede observar que el principal punto de cancelaciones es el centro de la ciudad. 
 
